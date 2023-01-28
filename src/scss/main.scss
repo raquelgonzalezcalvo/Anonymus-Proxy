@@ -1,7 +1,11 @@
 @import 'core/reset';
 @import 'layout/header';
 @import 'layout/hero';
-@import 'layout/section-contact';
-@import 'layout/section-newyear';
+@import 'layout/section-conect';
+// @import 'layout/section-newyear';
 @import 'layout/footer';
 
+:root {
+    // font-size: 62.5%;
+    box-sizing: border-box;
+}
