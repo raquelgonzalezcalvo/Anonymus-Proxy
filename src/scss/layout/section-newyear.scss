@@ -68,7 +68,7 @@
     display: inline-block;
   
 }
-.button-main-newyear {
+.button-newyear {
     background-color: #f26002;
     width: 160px;
     height: 45px;
@@ -79,12 +79,20 @@
     font-size: 20px;
     color: white;
     font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
     
-    
+
 }
 @media (min-width: 768px) {
     .section-newyear {
-      
+      width: 100%;
+      padding: 29px 0px 41px 0px;// modificar padding cuando meta display grid
+      display: grid;
+    //   grid-template-columns: 1fr;
+    //   grid-template-rows: 1fr 1fr 100px;
+
+        
     }
     .title-newyear {
         width: 30ch;
@@ -92,5 +100,14 @@
         font-size: 28px;
         
     }
+    .three-elements {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 100px;
+    }
+    // .button-newyear {
+    //     padding-right: px;
+    // }
+    }
+    
+        
 
-}
