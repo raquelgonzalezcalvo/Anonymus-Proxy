@@ -37,7 +37,6 @@
     
 }
  
-
 .title-article-two {
     font-size: 18px;
     font-family: 'Roboto Slab', serif;
@@ -81,4 +80,17 @@
     color: white;
     font-weight: bold;
     
+    
+}
+@media (min-width: 768px) {
+    .section-newyear {
+      
+    }
+    .title-newyear {
+        width: 30ch;
+        margin: 20px 138px 38px 100px;
+        font-size: 28px;
+        
+    }
+
 }

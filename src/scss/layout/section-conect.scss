@@ -38,3 +38,24 @@
     font-weight: bold;
     
 }
+
+
+@media (min-width: 768px)
+{
+.section-conect {
+   margin: 10px 39px 41px 25px; 
+   padding-bottom: 20px;
+   
+}   
+.title-feelings {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.title-conect {
+    font-size: 32px;
+}
+.conect-p {
+    font-size: 20px;
+}
+
+}
