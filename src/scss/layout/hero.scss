@@ -50,8 +50,28 @@
 } 
 .hero-title {
   width: 20ch;
+  font-family: 'Roboto Slab', serif;
+  font-size: 75px;
+  line-height: 1.33;
 }
+.hero-p {
+  font-size: 24px;
+  font-family: 'Roboto';
+  line-height: 1.17;
 }
+
+}
+
+ @media (min-width: 1200px) {
+  .hero-title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 100px;
+ }
+ 
+
+ 
+ }
+
   
 
 
