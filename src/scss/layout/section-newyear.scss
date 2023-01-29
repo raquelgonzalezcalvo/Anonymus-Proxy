@@ -1,157 +1,137 @@
-.section-newyear{
-    background-color: #f2f2f2;
-    padding: 29px 15px 0px 15px;
-    display: grid;
-    //grid-template-rows: 1fr 1fr 1fr;
-    //text-align: center;
-
+.section-newyear {
+  background-color: #f2f2f2;
+  padding: 29px 15px 0px 15px;
+  display: grid;
+  //grid-template-rows: 1fr 1fr 1fr;
+  //text-align: center;
 }
 .three-elements {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 .title-newyear {
-   width: 20ch;
-   font-weight: bold;
-   font-size: 20px;
-   line-height: 1.5;
-   font-family: 'Roboto Slab', serif;
-   padding-left: 30px;
-   //padding: 0px 15px 0px 35px;
-   text-align: center;
+  width: 20ch;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Roboto Slab", serif;
+  padding-left: 30px;
+  //padding: 0px 15px 0px 35px;
+  text-align: center;
 }
 .article-one {
-    line-height: 25px;
-    padding-left: 10px;
-    text-align: center;
-
-    
+  line-height: 25px;
+  padding-left: 10px;
+  text-align: center;
 }
 .title-article-one {
-    font-size: 18px;
-    font-family:'Roboto Slab',serif;
-    font-weight: bold;
-  
-    
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
 }
 .p-article-one {
-    font-family: 'Roboto';
-    font-size: 18px;
-    font-weight: 800; //no me deja poner más//
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 800; //no me deja poner más//
 }
-.article-two{
-    line-height: 25px;
-    padding-top: 20px;
-    text-align: center;
+.article-two {
+  line-height: 25px;
+  padding-top: 20px;
+  text-align: center;
 }
- 
+
 .title-article-two {
-    font-size: 18px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: bold;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
 }
 .p-article-two {
-    font-family: 'Roboto';
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 25px;
-    width: 20ch;
-    display:inline-block;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 25px;
+  width: 20ch;
+  display: inline-block;
 }
-.article-three{
-
-    line-height: 25px;
-    padding-top: 20px;
-    padding-left: 40px;
-    text-align: center;
+.article-three {
+  line-height: 25px;
+  padding-top: 20px;
+  padding-left: 40px;
+  text-align: center;
 }
 .title-article-three {
-    font-size: 18px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: bold;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
 }
 .p-article-three {
-    font-family: 'Roboto';
-    font-size: 18px;
-    font-weight: 800;
-    width: 20ch;
-    display: inline-block;
-  
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 800;
+  width: 20ch;
+  display: inline-block;
 }
 .section-button {
-    text-align: center;
-    padding-bottom: 50px;
-    padding-top: -15px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: -15px;
 }
 .button-newyear {
-    background-color: #f26002;
-    width: 160px;
-    height: 45px;
-    border-radius: 22.4px;
-    border: solid #f26002 2px;
-    padding: 10px 11.4px 10px 11.4px;
-    font-family: 'Roboto';
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
-    margin-top: 30px;
-    
-    //margin-bottom: 20px;
-    
+  background-color: #f26002;
+  width: 160px;
+  height: 45px;
+  border-radius: 22.4px;
+  border: solid #f26002 2px;
+  padding: 10px 11.4px 10px 11.4px;
+  font-family: "Roboto";
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
 
+  //margin-bottom: 20px;
 }
 @media (min-width: 768px) {
-    .section-newyear {
-      width: 100%;
-        
-    }
-    .title-newyear {
-        width: 30ch;
-        margin: 20px 138px 38px 100px;
-        font-size: 28px;
-        
-    }
-    .three-elements {
+  .section-newyear {
+    width: 100%;
+  }
+  .title-newyear {
+    width: 30ch;
+    margin: 20px 138px 38px 100px;
+    font-size: 28px;
+  }
+  .three-elements {
     //grid-template-columns: 1fr;
     //grid-template-rows: 1fr 1fr 1fr 1fr;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-
-        
-    }
-    // .button-newyear {
-    //     padding-right: px;
-    // }
-    }
-    .article-one {
-        width: 20ch;
-        margin-top: 23px;
-        margin-left: 49px;
-    }
-    .article-two {
-       
-    }
-    .article-three {
-        margin-right: 49px;
-    }
-    @media (min-width: 1200px) {
-      .title-newyear {
-        margin-right: 200px;
-
-      }
-     .three-elements {
-        margin: 0px 80px 0px 80px;
-     }
-     .p-article-one {
-       
-     }
-     .title-article-one {
-        //width: 100ch;
-     }
-    }
-
-    
-        
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  // .button-newyear {
+  //     padding-right: px;
+  // }
+}
+.article-one {
+  width: 20ch;
+  margin-top: 23px;
+  margin-left: 49px;
+}
+.article-two {
+}
+.article-three {
+  margin-right: 49px;
+}
+@media (min-width: 1200px) {
+  .title-newyear {
+    transform: translateX(200px);
+  }
+  .three-elements {
+    margin: 0px 80px 0px 80px;
+  }
+  .p-article-one {
+  }
+  .title-article-one {
+    //width: 100ch;
+  }
+}

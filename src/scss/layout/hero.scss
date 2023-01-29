@@ -1,13 +1,13 @@
 .hero {
   height: 528.8px;
   background-size: cover;
-  background-position:left;
+  background-position: left;
   background-image: url(../images/cover.jpeg);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
-.hero-figure{
+.hero-figure {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,71 +15,51 @@
 }
 .hero-title {
   font-size: 30px;
-  font-family:'Roboto Slab',
-  serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 100;
-  color:white;
- 
+  color: white;
+
   text-align: center;
   line-height: 60px;
   text-transform: uppercase;
 }
 .hero-p {
   font-size: 16px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: white;
   text-align: center;
   padding: 0px 42.9px 8px 33.8px;
   font-weight: bold;
 }
-.hero-img-arrow-a{
+.hero-img-arrow-a {
   width: 37.9px;
   height: 35.7px;
   background-color: white;
   border-radius: 22.5px;
-  
 }
 .hero-img-arrow {
   padding: 13px 10.1px 20px 9px;
- 
 }
-@media (min-width: 768px) { 
-.hero {
-  text-align: center;
- 
-} 
-.hero-title {
-  width: 20ch;
-  font-family: 'Roboto Slab', serif;
-  font-size: 75px;
-  line-height: 1.33;
-}
-.hero-p {
-  font-size: 24px;
-  font-family: 'Roboto';
-  line-height: 1.17;
-}
-
-}
-
- @media (min-width: 1200px) {
+@media (min-width: 768px) {
+  .hero {
+    text-align: center;
+  }
   .hero-title {
-  font-family: 'Roboto Slab', serif;
-  font-size: 100px;
- }
- 
+    width: 20ch;
+    font-family: "Roboto Slab", serif;
+    font-size: 75px;
+    line-height: 1.33;
+  }
+  .hero-p {
+    font-size: 24px;
+    font-family: "Roboto";
+    line-height: 1.17;
+  }
+}
 
- 
- }
-
-  
-
-
-
-
-
-  
-
- 
-
-
+@media (min-width: 1200px) {
+  .hero-title {
+    font-family: "Roboto Slab", serif;
+    font-size: 100px;
+  }
+}

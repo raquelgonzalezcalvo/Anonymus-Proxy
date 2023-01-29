@@ -1,67 +1,57 @@
 .section-conect {
-    padding: 34.2px 12px 51px 21px;
-
+  padding: 34.2px 12px 51px 21px;
 }
 .title-feelings {
-    font-size: 14px;
-    font-family: 'Roboto';
-    padding-bottom: 10px;
-    color: #f26002;
-    font-weight: bold;
-
+  font-size: 14px;
+  font-family: "Roboto";
+  padding-bottom: 10px;
+  color: #f26002;
+  font-weight: bold;
 }
 .title-conect {
-    font-family: 'Roboto Slab', serif;
-    font-size: 24px;
-    padding-bottom: 11px;
-    font-weight: bold;
-
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  padding-bottom: 11px;
+  font-weight: bold;
 }
 .conect-p {
-   font-family: 'Roboto';
-   font-size: 18px;
-   padding-bottom: 20px;
-   color: #4a4a4a;
-   line-height: 1.67;
-   font-weight: bold;
+  font-family: "Roboto";
+  font-size: 18px;
+  padding-bottom: 20px;
+  color: #4a4a4a;
+  line-height: 1.67;
+  font-weight: bold;
 }
-.button-main-conect { 
-    background-color: transparent;
-    width: 160px;
-    height: 45px;
-    border-radius: 22.4px;
-    border: solid #f26002 2px;
-    padding: 10px 11.4px 10px 11.4px;
-    font-family: 'Roboto';
-    font-size: 20px;
-    color: #f26002;
-    font-weight: bold;
-    
+.button-main-conect {
+  background-color: transparent;
+  width: 160px;
+  height: 45px;
+  border-radius: 22.4px;
+  border: solid #f26002 2px;
+  padding: 10px 11.4px 10px 11.4px;
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #f26002;
+  font-weight: bold;
 }
 
-
-@media (min-width: 768px)
-{
-.section-conect {
-   margin: 10px 39px 41px 25px; 
-   padding-bottom: 20px;
-   
-}   
-.title-feelings {
+@media (min-width: 768px) {
+  .section-conect {
+    margin: 10px 39px 41px 25px;
+    padding-bottom: 20px;
+  }
+  .title-feelings {
     margin-bottom: 10px;
     font-size: 16px;
-}
-.title-conect {
+  }
+  .title-conect {
     font-size: 32px;
-}
-.conect-p {
+  }
+  .conect-p {
     font-size: 20px;
+  }
 }
-
+@media (min-width: 1200px) {
+  .section-conect {
+  }
 }
-@media (min-width: 1200px){
-    .section-conect {
-        
-    }
-}
-
