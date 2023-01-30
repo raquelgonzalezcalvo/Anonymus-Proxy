@@ -12,6 +12,8 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 37.8px;
+  
+  
 }
 .hero-title {
   font-size: 30px;
@@ -28,7 +30,7 @@
   font-family: "Roboto";
   color: white;
   text-align: center;
-  padding: 0px 42.9px 8px 33.8px;
+  padding: 0px 42.9px 17px 33.8px;
   font-weight: bold;
 }
 .hero-img-arrow-a {
@@ -61,5 +63,9 @@
   .hero-title {
     font-family: "Roboto Slab", serif;
     font-size: 100px;
+  }
+  .hero-p {
+    padding-top: 10px;
+    padding-bottom: 30px;
   }
 }
