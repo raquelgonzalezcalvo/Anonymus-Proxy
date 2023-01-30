@@ -6,7 +6,6 @@
   grid-template-columns: 1fr;
   align-items: center;
   text-align: center;
-
 }
 .three-elements {
   grid-column: span 1;
@@ -15,7 +14,6 @@
   grid-template-columns: 1fr;
   grid-template-rows: 116.5px 116.5px 116.5px;
   align-items: center;
-  
 }
 .title-newyear {
   grid-column: span 1;
@@ -25,13 +23,13 @@
   font-size: 20px;
   line-height: 1.5;
   font-family: "Roboto Slab", serif;
-  //padding-left: 30px;
-  //padding: 0px 15px 0px 35px;
+
   text-align: center;
+  justify-self: center;
 }
 .article-one {
   line-height: 25px;
-  //padding-left: 10px;
+
   text-align: center;
 }
 .title-article-one {
@@ -42,11 +40,11 @@
 .p-article-one {
   font-family: "Roboto";
   font-size: 18px;
-  font-weight: 800; //no me deja poner más//
+  font-weight: 800;
 }
 .article-two {
   line-height: 25px;
-  //padding-top: 20px;
+
   text-align: center;
 }
 
@@ -65,8 +63,7 @@
 }
 .article-three {
   line-height: 25px;
-  //padding-top: 20px;
-  //padding-left: 40px;
+
   text-align: center;
 }
 .title-article-three {
@@ -85,84 +82,54 @@
   grid-column: span 1;
   grid-row: span 1;
   text-align: center;
-  //padding-bottom: 50px;
-  
-  
-  
 }
 .button-newyear {
   width: 160px;
   height: 45px;
   background-color: #f26002;
-  
+
   border-radius: 22.4px;
   border: solid #f26002 2px;
-  //padding: 10px 11.4px 10px 11.4px;
+
   font-family: "Roboto";
   font-size: 20px;
   color: white;
   font-weight: bold;
-  //margin-top: 30px;
-
-  //margin-bottom: 20px;
 }
 @media (min-width: 768px) {
   .section-newyear {
-    //width: 100%;
     grid-template-rows: 70px 150px 70px;
     grid-template-columns: 1fr 1fr 1fr;
   }
   .title-newyear {
     width: 30ch;
-    //margin: 20px 138px 38px 100px;
+
     font-size: 28px;
     grid-row: span 1;
     grid-column: span 3;
   }
   .three-elements {
-   
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 150px;
     grid-row: span 1;
     grid-column: span 3;
-    
-  
   }
   .section-button {
     grid-row: span 1;
-      grid-column: span 3;
+    grid-column: span 3;
   }
 }
-
 
 @media (min-width: 1200px) {
   .title-newyear {
-    transform: translateX(250px);
-    
+    justify-self: center;
   }
-  .three-elements {
-   
-    //grid-template-columns: 1fr;
-    //grid-template-rows: 1fr 1fr 1fr;
-  }
-  
-  .article-one {
-   
-    
-  }
-  .article-two {
-    
-  }
-    
-    
-.p-article-two {
-  width: 100%;
-}
 
-    
-.p-article-three {
-  width: 100%;
-} 
-  
-  
+  .p-article-two {
+    width: 100%;
+  }
+
+  .p-article-three {
+    width: 100%;
+  }
 }
